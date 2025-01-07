@@ -8,3 +8,20 @@ git config --global user.email "email"
 git config user.email
 
 U - untracked
+A - Added
+M - Modified
+
+- 3 Stage Architecture
+1. Working Area
+2. Staging Area
+3. Commit Stage
+
+- Check the status of all the files and folders within project folders
+git status
+
+- Add all the files that have been modified
+git add .
+git add "filename.ext"
+
+- Create a commit 
+git commit -m "Description."
