@@ -25,3 +25,7 @@ git add "filename.ext"
 
 - Create a commit 
 git commit -m "Description."
+
+- Check the history of the changes.
+git log
+git log --oneline
